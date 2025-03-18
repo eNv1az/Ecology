@@ -56,12 +56,19 @@ text-align: justify;
     width: 70%;
     
 }
+ 
+pre {
+    font-size: 30px;
+}
+
+
 
 
   @media only screen and (max-width: 1200px) {
     body {
       background-color: rgb(169, 183, 134);
     }
+
 
     #video {
         margin-top: 40px;
@@ -75,7 +82,13 @@ text-align: justify;
       background-color: rgb(161, 161, 81);
     }
 
-    
+        
+pre {
+    display: none;
+}
+
+
+
 #video {
     margin-top: 40px;
     width: 80%;
@@ -88,10 +101,14 @@ text-align: justify;
       color:  rgb(135, 129, 185);
     }
 
+    pre {
+        display: none;
+    }
+    
     
 #video {
     margin-top: 40px;
-    width: 90%;
+    width: 96%;
     
 }
   }
@@ -101,7 +118,11 @@ text-align: justify;
       color:   rgb(80, 77, 110);
     }
 
+    pre {
+        display: none;
+    }
     
+
 #video {
     margin-top: 40px;
     width: 96%;
