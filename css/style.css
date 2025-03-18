@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.qt {
+    font-style: italic;
+    color: black;
+    font-weight: 600;
+
+
+  }
+
+
+body {
+
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(41, 71, 54);
+    background-color: darkseagreen;
+    text-align: center;
+  }
+
+ 
+  .pg{
+    text-indent: 26px;
+text-align: justify;
+    margin-top: 40px;
+  }
+
+  .ramuri{
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .ul {
+    text-align: left;
+    padding-top: 6px;
+  }
+
+  .video {
+    margin: auto;
+    border-width: 10px;
+    border-radius: 12px;
+    border-color: black;
+    border-style: double;
+  }
+   
+  #video {
+    
+    margin-top: 40px;
+    width: 70%;
+    
+}
+
+
+  @media only screen and (max-width: 1200px) {
+    body {
+      background-color: rgb(169, 183, 134);
+    }
+
+    #video {
+        margin-top: 40px;
+        width: 70%;
+    }
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(161, 161, 81);
+    }
+
+    
+#video {
+    margin-top: 40px;
+    width: 80%;
+}
+  }
+
+  @media only screen and (max-width: 1200px) {
+    header {
+      
+      color:  rgb(135, 129, 185);
+    }
+
+    
+#video {
+    margin-top: 40px;
+    width: 90%;
+    
+}
+  }
+
+  @media only screen and (max-width: 800px) {
+    header {
+      color:   rgb(80, 77, 110);
+    }
+
+    
+#video {
+    margin-top: 40px;
+    width: 96%;
+}
+  }
+
+div{
+    margin-top: 40px;
+    border-radius: 4px;
+    border-color: black;
+    border-style: solid double solid double;
+}
+
+
